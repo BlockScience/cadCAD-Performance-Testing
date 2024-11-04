@@ -9,4 +9,11 @@ SimulationLogType = {
     "notes": "Will be a list of entries expanding over time",
 }
 
-primitive_types = [EntityType, SimulationLogType]
+FloatType = {
+    "name": "Float Type",
+    "type": "FloatType",
+    "notes": "A floating point type",
+}
+
+
+primitive_types = [EntityType, SimulationLogType, FloatType]
