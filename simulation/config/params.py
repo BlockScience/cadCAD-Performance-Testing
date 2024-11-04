@@ -7,6 +7,7 @@ params_base = {
     "FP DUMMY Length-2 ABC Combo Boundary Action": "DUMMY Length-2 ABC Equal Weight Option",
     "Sample Mean": 100,
     "Sample Standard Deviation": 20,
+    "Rolling Mean Window": 10,
 }
 
 params_test1 = deepcopy(params_base)

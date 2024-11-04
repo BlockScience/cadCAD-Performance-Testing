@@ -13,7 +13,7 @@ mean_space = {
 sample_queue_space = {
     "name": "Sample Queue Space",
     "schema": {
-        "mean": "Float Array Type",
+        "sample_queue": "Float Array Type",
     },
 }
 

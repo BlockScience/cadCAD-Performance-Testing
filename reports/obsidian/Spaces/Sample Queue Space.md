@@ -1,3 +1,3 @@
 ## Schema
 
-{mean: [[Float Array Type]]}
+{sample_queue: [[Float Array Type]]}
