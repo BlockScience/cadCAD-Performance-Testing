@@ -14,6 +14,11 @@ FloatType = {
     "type": "FloatType",
     "notes": "A floating point type",
 }
+FloatArrayType = {
+    "name": "Float Array Type",
+    "type": "FloatArrayType",
+    "notes": "An array of floating point numbers",
+}
 
 
-primitive_types = [EntityType, SimulationLogType, FloatType]
+primitive_types = [EntityType, SimulationLogType, FloatType, FloatArrayType]
