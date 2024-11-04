@@ -244,6 +244,8 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Dummy
 │   │   ├──Time
 │   │   ├──Simulation Log
+│   │   ├──Current Mean
+│   │   ├──Sample Queue
 ├──Stateful Metrics
 │   ├──DUMMY Stateful Metrics
 │   │   ├──DUMMY Nominal Length Stateful Metric
@@ -253,25 +255,40 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──DUMMY Decimal Type
 │   ├──Entity Type
 │   ├──Simulation Log Type
+│   ├──Float Type
+│   ├──Float Array Type
+│   ├──Integer Type
 ├──Spaces
 │   ├──Terminating Space
 │   ├──Empty Space
 │   ├──DUMMY ABCDEF Space
 │   ├──DUMMY String Length Space
+│   ├──Sample Space
+│   ├──Mean Space
+│   ├──Sample Queue Space
 ├──Parameters
 │   ├──DUMMY Parameter Set
 │   │   ├──DUMMY D Probability
 │   │   ├──DUMMY Length Multiplier
+│   ├──Sample Parameter Set
+│   │   ├──Sample Mean
+│   │   ├──Sample Standard Deviation
+│   │   ├──Rolling Mean Window
 ├──Boundary Actions
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action
 ├──Control Actions
 │   ├──DUMMY Length-1 DEF Control Action
+│   ├──Add New Sample Control Action
 ├──Policies
 │   ├──DUMMY Letter Count Policy
+│   ├──Update Rolling Mean Policy
 ├──Mechanisms
 │   ├──DUMMY Update Dummy Entity Mechanism
 │   ├──DUMMY Increment Time Mechanism
 │   ├──DUMMY Log Simulation Data Mechanism
+│   ├──Update Mean Mechanism
+│   ├──Update Queue Mechanism
+│   ├──Log Simulation Data Mechanism
 
 ```
