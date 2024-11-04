@@ -57,3 +57,5 @@ cssclasses:
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
 │   ├──[[DUMMY Log Simulation Data Mechanism]]
+│   ├──[[Update Mean Mechanism]]
+│   ├──[[Update Queue Mechanism]]

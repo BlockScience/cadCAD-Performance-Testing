@@ -287,5 +287,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──DUMMY Update Dummy Entity Mechanism
 │   ├──DUMMY Increment Time Mechanism
 │   ├──DUMMY Log Simulation Data Mechanism
+│   ├──Update Mean Mechanism
+│   ├──Update Queue Mechanism
 
 ```
