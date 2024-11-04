@@ -23,5 +23,19 @@ global_state = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "Float Type",
+            "name": "Current Mean",
+            "description": "The current rolling mean",
+            "symbol": None,
+            "domain": None,
+        },
+        {
+            "type": "Float Array Type",
+            "name": "Sample Queue",
+            "description": "The current queue of samples",
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }

@@ -14,6 +14,8 @@ cssclasses:
 │   │   ├──[[Global State-Dummy\|Dummy]]
 │   │   ├──[[Global State-Time\|Time]]
 │   │   ├──[[Global State-Simulation Log\|Simulation Log]]
+│   │   ├──[[Global State-Current Mean\|Current Mean]]
+│   │   ├──[[Global State-Sample Queue\|Sample Queue]]
 ├──**Stateful Metrics**
 │   ├──DUMMY Stateful Metrics
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]

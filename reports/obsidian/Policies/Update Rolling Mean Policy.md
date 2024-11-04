@@ -15,7 +15,7 @@ The policy which determines the new rolling mean.
 ## Policy Options
 ### 1. Update Rolling Mean Policy V1
 #### Description
-
+Simple policy which computes the rolling mean based on a maximum rolling mean window
 #### Logic
-
+1. Compute sum as the state variable of current mean times the length of the sample queue state variable
 

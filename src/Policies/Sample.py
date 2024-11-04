@@ -1,7 +1,7 @@
 update_rolling_mean_policy_option1 = {
     "name": "Update Rolling Mean Policy V1",
-    "description": "",
-    "logic": """""",
+    "description": "Simple policy which computes the rolling mean based on a maximum rolling mean window",
+    "logic": """1. Compute sum as the state variable of current mean times the length of the sample queue state variable""",
 }
 
 update_rolling_mean_policy = {
