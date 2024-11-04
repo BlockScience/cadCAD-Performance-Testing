@@ -254,12 +254,16 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Entity Type
 │   ├──Simulation Log Type
 │   ├──Float Type
+│   ├──Float Array Type
+│   ├──Integer Type
 ├──Spaces
 │   ├──Terminating Space
 │   ├──Empty Space
 │   ├──DUMMY ABCDEF Space
 │   ├──DUMMY String Length Space
 │   ├──Sample Space
+│   ├──Mean Space
+│   ├──Sample Queue Space
 ├──Parameters
 │   ├──DUMMY Parameter Set
 │   │   ├──DUMMY D Probability
@@ -267,6 +271,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Sample Parameter Set
 │   │   ├──Sample Mean
 │   │   ├──Sample Standard Deviation
+│   │   ├──Rolling Mean Window
 ├──Boundary Actions
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action
@@ -275,6 +280,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Add New Sample Control Action
 ├──Policies
 │   ├──DUMMY Letter Count Policy
+│   ├──Update Rolling Mean Policy
 ├──Mechanisms
 │   ├──DUMMY Update Dummy Entity Mechanism
 │   ├──DUMMY Increment Time Mechanism

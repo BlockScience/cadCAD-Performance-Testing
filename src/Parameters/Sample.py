@@ -18,6 +18,14 @@ sample_parameter_set = {
             "domain": None,
             "parameter_class": "Behavioral",
         },
+        {
+            "variable_type": "Integer Type",
+            "name": "Rolling Mean Window",
+            "description": "The number of samples to use for the rolling window at maximum",
+            "symbol": None,
+            "domain": None,
+            "parameter_class": "Functional",
+        },
     ],
 }
 
