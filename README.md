@@ -289,5 +289,6 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──DUMMY Log Simulation Data Mechanism
 │   ├──Update Mean Mechanism
 │   ├──Update Queue Mechanism
+│   ├──Log Simulation Data Mechanism
 
 ```

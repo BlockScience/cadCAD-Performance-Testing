@@ -14,10 +14,22 @@ update_queue_mechanism = {
     "description": "Sets the sample queue",
     "constraints": [],
     "logic": """""",
-    "domain": ["Sample Space"],
+    "domain": ["Sample Queue Space"],
     "parameters_used": [],
     "updates": [
         ("Global", "Sample Queue", False),
+    ],
+}
+
+log_simulation_data_mechanism = {
+    "name": "Log Simulation Data Mechanism",
+    "description": "Logs simulation data",
+    "constraints": [],
+    "logic": """""",
+    "domain": [],
+    "parameters_used": [],
+    "updates": [
+        ("Global", "Simulation Log", False),
     ],
 }
 
@@ -25,4 +37,5 @@ update_queue_mechanism = {
 sample_mechanisms = [
     update_mean_mechanism,
     update_queue_mechanism,
+    log_simulation_data_mechanism,
 ]

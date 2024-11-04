@@ -2,9 +2,12 @@
 
 The policy which determines the new rolling mean.
 ## Called By
+1. [[Add New Sample Control Action]]
 ## Domain Spaces
 1. [[Sample Space]]
 ## Followed By
+1. [[Update Mean Mechanism]]
+2. [[Update Queue Mechanism]]
 ## Codomain Spaces
 1. [[Mean Space]]
 2. [[Sample Queue Space]]

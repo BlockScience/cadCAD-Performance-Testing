@@ -2,8 +2,9 @@
 
 Sets the sample queue
 ## Called By
+1. [[Update Rolling Mean Policy]]
 ## Domain Spaces
-1. [[Sample Space]]
+1. [[Sample Queue Space]]
 ## Constraints
 ## Logic
 
