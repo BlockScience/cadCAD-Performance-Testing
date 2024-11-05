@@ -1,5 +1,18 @@
+import numpy as np
+
+
 def p_sample(_params, substep, state_history, state):
-    return {"Current Mean": 0, "Sample Queue": []}
+    sample = np.random.normal(
+        _params["Sample Mean"], _params["Sample Standard Deviation"]
+    )
+    q = state["Sample Queue"]
+    s = state["Current Mean"] * len(q)
+    s += sample
+    q.append(sample)
+    if len(q) > _params["Rolling Mean Window"]:
+        s -= q.pop(0)
+    s = s / len(q)
+    return {"Current Mean": s, "Sample Queue": q}
 
 
 psub_blocks = [
